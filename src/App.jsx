@@ -10,7 +10,12 @@ function App() {
   useEffect(() => {
     getParam();
   });
-  const param = window.location.host.split(".")[0];
+  if ((window.location.host.split(".")[0] = www)) {
+    param = "Abheer";
+  } else {
+    param = window.location.host.split(".")[0];
+  }
+
   console.log(param);
   return (
     <>
