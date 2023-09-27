@@ -15,10 +15,10 @@ function App() {
     <>
       <h1>
         {param == "www" || "" || "." ? (
-          <h1>Abheer ki </h1>
+          <h1>Abheer ki maa ki ch*t </h1>
         ) : (
           <>
-            <h1>{param} ki ma</h1>
+            <h1>{param} ki maa ki ch*t</h1>
           </>
         )}
       </h1>
