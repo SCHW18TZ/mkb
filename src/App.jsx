@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <h1>
-        {param == "www" || "" || "." ? (
+        {param == "www" || "" ? (
           <h1>Abheer ki maa ki ch*t </h1>
         ) : (
           <>
