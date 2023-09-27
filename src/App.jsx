@@ -10,16 +10,18 @@ function App() {
   useEffect(() => {
     getParam();
   });
-  if ((window.location.host.split(".")[0] = "www")) {
-    param = "Abheer";
-  } else {
-    param = window.location.host.split(".")[0];
-  }
-
-  console.log(param);
+  const param = window.location.host.split(".")[0];
   return (
     <>
-      <h1>{param} ki maa ki c**t</h1>
+      <h1>
+        {param == "www" || " " ? (
+          <h1>Abheer ki </h1>
+        ) : (
+          <>
+            <h1>{param} ki ma</h1>
+          </>
+        )}
+      </h1>
     </>
   );
 }
