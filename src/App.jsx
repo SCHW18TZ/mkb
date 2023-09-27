@@ -14,7 +14,7 @@ function App() {
   console.log(param);
   return (
     <>
-      <h1>{param} ki mummy randi</h1>
+      <h1>{param} ki maa ki c**t</h1>
     </>
   );
 }
