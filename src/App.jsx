@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { useEffect } from "react";
 import "./App.css";
 
 function App() {
@@ -13,15 +11,39 @@ function App() {
   const param = window.location.host.split(".")[0];
   return (
     <>
-      <h1>
-        {param == "www" || "" ? (
-          <h1>Abheer ki maa ki ch*t </h1>
-        ) : (
-          <>
-            <h1>{param} ki maa ki ch*t</h1>
-          </>
-        )}
-      </h1>
+      <div className="container">
+        <h1>
+          {param == "www" || "" ? (
+            <>
+              <h1>Abheer ki maa ki ch*t </h1>
+
+              <button>
+                <a
+                  className="cta"
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  target="_blank"
+                >
+                  know more about her
+                </a>
+              </button>
+            </>
+          ) : (
+            <>
+              <>
+                <h1>{param} ki maa ki ch*t </h1>
+                <button>
+                  <a
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    target="_blank"
+                  >
+                    know more about her
+                  </a>
+                </button>
+              </>
+            </>
+          )}
+        </h1>
+      </div>
     </>
   );
 }

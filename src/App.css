@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.cta {
+  font-style: none;
+  text-decoration: none;
+  color: white;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
